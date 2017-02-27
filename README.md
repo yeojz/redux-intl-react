@@ -21,7 +21,8 @@ npm install redux-intl-react redux react --save
 ```
 
 ## Usage
-```
+
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider, FormattedMessage} from 'redux-intl-react'
