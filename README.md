@@ -1,6 +1,9 @@
 # redux-intl-react
 React bindings for localization with ICU MessageFormat using redux-intl-connect
 
+[![Build Status][build-badge]][build-link]
+[![npm package][npm-badge]][npm-link]
+
 ## PSA
 If you're looking to support [react-intl](https://github.com/yahoo/react-intl) in redux, please use [react-intl-redux](https://github.com/ratson/react-intl-redux) instead.
 
@@ -110,10 +113,16 @@ const App = () => (
 
  - [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect)
 
-
 ## Acknowledgement
 
 Highly influenced by the following libraries:
 
 - [react-intl](https://github.com/yahoo/react-intl)
 - [react-intl-redux](https://github.com/ratson/react-intl-redux)
+
+
+[npm-badge]: https://img.shields.io/npm/v/redux-intl-react.svg?style=flat-square
+[npm-link]: https://www.npmjs.com/package/redux-intl-react
+
+[build-badge]: https://img.shields.io/travis/yeojz/redux-intl-react.svg?style=flat-square
+[build-link]: https://travis-ci.org/yeojz/redux-intl-react
