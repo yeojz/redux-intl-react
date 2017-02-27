@@ -124,5 +124,6 @@ Highly influenced by the following libraries:
 [npm-badge]: https://img.shields.io/npm/v/redux-intl-react.svg?style=flat-square
 [npm-link]: https://www.npmjs.com/package/redux-intl-react
 
-[build-badge]: https://img.shields.io/travis/yeojz/redux-intl-react.svg?style=flat-square
-[build-link]: https://travis-ci.org/yeojz/redux-intl-react
+
+[build-badge]: https://img.shields.io/circleci/project/github/yeojz/redux-intl-react.svg?style=flat-square
+[build-link]: https://circleci.com/gh/yeojz/redux-intl-react.svg
