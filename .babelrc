@@ -6,7 +6,5 @@
   "plugins": [
     "transform-class-properties",
     "transform-export-extensions"
-  ],
-  "env": {
-   }
+  ]
 }
