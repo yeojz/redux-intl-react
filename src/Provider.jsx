@@ -6,13 +6,15 @@ const propTypes = {
     store: PropTypes.object
 }
 
-const Provider = (props) => (
+function Provider(props) {
+  return (
     <ReduxProvider store={props.store}>
-        <IntlProvider>
-            {props.children}
-        </IntlProvider>
+      <IntlProvider>
+        {props.children}
+      </IntlProvider>
     </ReduxProvider>
-);
+  )
+};
 
 Provider.propTypes = propTypes
 export default Provider;

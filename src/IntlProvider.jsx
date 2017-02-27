@@ -1,5 +1,8 @@
-import React, {PropTypes} from 'react';
-import withIntl from './withIntl';
+import React, {Children, PropTypes} from 'react';
+import {injectIntl} from 'redux-intl-connect';
+import {connect} from 'react-redux';
+
+const withIntl = injectIntl(connect);
 
 const propTypes = {
     intl: PropTypes.object
@@ -13,8 +16,9 @@ class IntlProvider extends React.Component {
     getChildContext = () => ({
         intl: this.props.intl
     })
+
     render() {
-        return <div>{this.props.children}</div>
+        return Children.only(this.props.children);
     }
 }
 
