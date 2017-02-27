@@ -16,7 +16,7 @@ const defaultProps = {
 function FormattedMessage(props, context) {
   const message = context.intl.formatMessage({id: props.id}, props.values);
   return <span>{message}</span>;
-};
+}
 
 FormattedMessage.propTypes = propTypes;
 FormattedMessage.contextTypes = contextTypes;
