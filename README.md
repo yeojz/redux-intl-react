@@ -1,5 +1,5 @@
 # redux-intl-react
-React bindings for localization with ICU MessageFormat using redux-intl-connect
+React bindings for localization with MessageFormat and optional ECMA Intl support using redux-intl-connect.
 
 [![Build Status][build-badge]][build-link]
 [![npm package][npm-badge]][npm-link]
@@ -8,9 +8,10 @@ React bindings for localization with ICU MessageFormat using redux-intl-connect
 If you're looking to support [react-intl](https://github.com/yahoo/react-intl) in redux, please use [react-intl-redux](https://github.com/ratson/react-intl-redux) instead.
 
 ## About
-`redux-intl-react` provides React specific bindings for localization using [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect) which has  support for the [ICU Message Syntax](http://userguide.icu-project.org/formatparse/messages).
+`redux-intl-react` provides React specific bindings for localization using [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect) with [MessageFormat](http://userguide.icu-project.org/formatparse/messages) support.
 
-Basic functionality **does not** require browser support or polyfill for [ECMA-Intl](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Intl). Should you require those, you can enable it.
+
+Basic functionality **does not** require browser support or polyfill for [ECMA-Intl](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Intl). Should you require those, you can enable it. By setting `ecmaSupport` to `true` in the reducer.
 
 ## Installation
 

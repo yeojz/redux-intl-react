@@ -21,4 +21,5 @@ function FormattedMessage(props, context) {
 FormattedMessage.propTypes = propTypes;
 FormattedMessage.contextTypes = contextTypes;
 FormattedMessage.defaultProps = defaultProps;
+
 export default FormattedMessage;

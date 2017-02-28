@@ -8,10 +8,11 @@ const propTypes = {
 }
 
 function Provider(props) {
+  const {children, ...rest} = props;
   return (
-    <ReduxProvider store={props.store}>
+    <ReduxProvider {...rest}>
       <IntlProvider>
-        {props.children}
+        {children}
       </IntlProvider>
     </ReduxProvider>
   )
