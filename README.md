@@ -1,16 +1,21 @@
 # redux-intl-react
-React bindings for localization with ICU MessageFormat using redux-intl-connect
+React bindings for localization with MessageFormat and optional ECMA Intl support using redux-intl-connect.
 
 [![Build Status][build-badge]][build-link]
+[![Coverage Status][coveralls-badge]][coveralls-link]
 [![npm package][npm-badge]][npm-link]
+[![PRs Welcome][pr-welcome-badge]][pr-welcome-badge]
 
 ## PSA
 If you're looking to support [react-intl](https://github.com/yahoo/react-intl) in redux, please use [react-intl-redux](https://github.com/ratson/react-intl-redux) instead.
 
-## About
-`redux-intl-react` provides React specific bindings for localization using [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect) which has  support for the [ICU Message Syntax](http://userguide.icu-project.org/formatparse/messages).
+The main difference between this library and the aforementioned is that this does not depend on the availability of ECMA Intl or it's polyfill.
 
-Basic functionality **does not** require browser support or polyfill for [ECMA-Intl](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Intl). Should you require those, you can enable it.
+## About
+`redux-intl-react` provides React specific bindings for localization using [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect) with [MessageFormat](http://userguide.icu-project.org/formatparse/messages) support.
+
+
+Basic functionality **does not** require browser support or polyfill for [ECMA-Intl](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Intl). Should you require those, you can enable it. By setting `ecmaSupport` to `true` in the reducer.
 
 ## Installation
 
@@ -125,6 +130,11 @@ Highly influenced by the following libraries:
 [npm-badge]: https://img.shields.io/npm/v/redux-intl-react.svg?style=flat-square
 [npm-link]: https://www.npmjs.com/package/redux-intl-react
 
-
 [build-badge]: https://img.shields.io/circleci/project/github/yeojz/redux-intl-react.svg?style=flat-square
 [build-link]: https://circleci.com/gh/yeojz/redux-intl-react.svg
+
+[coveralls-badge]: https://img.shields.io/coveralls/yeojz/redux-intl-react.svg?style=flat-square
+[coveralls-link]: https://coveralls.io/github/yeojz/redux-intl-react
+
+[pr-welcome-badge]: https://img.shields.io/badge/PRs-Welcome-ff69b4.svg?style=flat-square
+[pr-welcome-link]: https://github.com/yeojz/redux-intl-react/blob/master/CONTRIBUTING.md

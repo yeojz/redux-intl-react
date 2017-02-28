@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const contextTypes = {
-  intl: PropTypes.object
+  intl: PropTypes.object.isRequired
 }
 
 function injectIntl(Component) {

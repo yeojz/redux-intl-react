@@ -1,12 +1,12 @@
 import React, {PropTypes} from 'react';
 
 const propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.string.isRequired,
   values: PropTypes.object
 }
 
 const contextTypes = {
-  intl: PropTypes.object,
+  intl: PropTypes.object.isRequired,
 }
 
 const defaultProps = {
@@ -21,4 +21,5 @@ function FormattedMessage(props, context) {
 FormattedMessage.propTypes = propTypes;
 FormattedMessage.contextTypes = contextTypes;
 FormattedMessage.defaultProps = defaultProps;
+
 export default FormattedMessage;
