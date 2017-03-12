@@ -1,4 +1,8 @@
-import {connect} from 'react-redux';
-import {connectIntl} from 'redux-intl-connect';
+import {connect as reduxConnect} from 'react-redux';
+import injectIntl from './injectIntl';
 
-export default connectIntl(connect);
+function connect(...args) {
+  return (Component) => reduxConnect(...args)(injectIntl(Component));
+}
+
+export default connect;
