@@ -1,4 +1,6 @@
 # redux-intl-react
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yeojz/redux-intl-react.svg)](https://greenkeeper.io/)
 React bindings for localization with MessageFormat and optional ECMA Intl support using redux-intl-connect.
 
 [![Build Status][build-badge]][build-link]
