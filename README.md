@@ -1,12 +1,11 @@
 # redux-intl-react
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/yeojz/redux-intl-react.svg)](https://greenkeeper.io/)
 React bindings for localization with MessageFormat and optional ECMA Intl support using redux-intl-connect.
 
 [![Build Status][build-badge]][build-link]
 [![Coverage Status][coveralls-badge]][coveralls-link]
 [![npm package][npm-badge]][npm-link]
-[![PRs Welcome][pr-welcome-badge]][pr-welcome-badge]
+[![PRs Welcome][pr-welcome-badge]][pr-welcome-link]]
 
 ## PSA
 If you're looking to support [react-intl](https://github.com/yahoo/react-intl) in redux, please use [react-intl-redux](https://github.com/ratson/react-intl-redux) instead.
@@ -119,14 +118,14 @@ const App = () => (
 
 ## See also
 
- - [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect)
+-   [redux-intl-connect](https://www.github.com/yeojz/redux-intl-connect)
 
 ## Acknowledgement
 
 Highly influenced by the following libraries:
 
-- [react-intl](https://github.com/yahoo/react-intl)
-- [react-intl-redux](https://github.com/ratson/react-intl-redux)
+-   [react-intl](https://github.com/yahoo/react-intl)
+-   [react-intl-redux](https://github.com/ratson/react-intl-redux)
 
 
 [npm-badge]: https://img.shields.io/npm/v/redux-intl-react.svg?style=flat-square
