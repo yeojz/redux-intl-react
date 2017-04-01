@@ -5,7 +5,7 @@ React bindings for localization with MessageFormat and optional ECMA Intl suppor
 [![Build Status][build-badge]][build-link]
 [![Coverage Status][coveralls-badge]][coveralls-link]
 [![npm package][npm-badge]][npm-link]
-[![PRs Welcome][pr-welcome-badge]][pr-welcome-link]]
+[![PRs Welcome][pr-welcome-badge]][pr-welcome-link]
 
 ## PSA
 If you're looking to support [react-intl](https://github.com/yahoo/react-intl) in redux, please use [react-intl-redux](https://github.com/ratson/react-intl-redux) instead.
