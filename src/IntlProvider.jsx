@@ -1,4 +1,5 @@
-import React, {Children, PropTypes} from 'react';
+import React, {Children} from 'react';
+import PropTypes from 'prop-types';
 import {injectIntl} from 'redux-intl-connect';
 import {connect} from 'react-redux';
 
