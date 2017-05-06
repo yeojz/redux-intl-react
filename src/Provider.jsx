@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {Provider as ReduxProvider} from 'react-redux';
 import IntlProvider from './IntlProvider';
 
