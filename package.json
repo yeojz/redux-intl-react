@@ -61,7 +61,7 @@
   "peerDependencies": {
     "prop-types": "^15.5.8",
     "react": "^0.14.0 || ^15.0.0",
-    "react-redux": "^5.0.6",
+    "react-redux": "^5.0.6"
   },
   "dependencies": {
     "redux-intl-connect": "^2.2.0"
